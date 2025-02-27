@@ -1,6 +1,6 @@
 ![Network Diagram](./traefik.png)
 
-# one-traefik-multiple-projects
+# Traefik Docker VPS Example
 
 This repo demonstrates how to use a single Traefik Docker container as a reverse proxy for multiple projects, each with different domains. Instead of manually installing and configuring a reverse proxy for a server, you can deploy this pre-configured Traefik container and easily add as many projects with as many domains as you need.
 
