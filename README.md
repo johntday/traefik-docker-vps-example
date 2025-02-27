@@ -33,7 +33,7 @@ Follow these steps to set up the Traefik reverse proxy and deploy multiple proje
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/sesto-dev/one-traefik-multiple-projects.git
+git clone https://github.com/johntday/traefik-docker-vps-example.git
 ```
 
 ### 2. Create Docker Network
@@ -49,7 +49,7 @@ docker network create traefik-public
 Set up the necessary environment variables for Traefik and each project.
 
 ```bash
-cd one-traefik-multiple-projects/traefik
+cd traefik-docker-vps-example/traefik
 ```
 
 Create a `.env` file inside the `traefik` directory:
